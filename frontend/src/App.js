@@ -26,7 +26,7 @@ function Form() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    axios.post('https://crop-4.onrender.com/predict ', formData, {
+    axios.post('https://crop-5.onrender.com/predict ', formData, {
       headers: {
         'Content-Type': 'application/json'
       }
